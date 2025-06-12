@@ -1,0 +1,8 @@
+/recentf
+/auto-save-list/
+/elpa/
+.lsp*
+history
+session*
+transient/
+.cache/

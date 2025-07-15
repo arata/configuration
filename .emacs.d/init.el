@@ -20,6 +20,8 @@
 (package-install 'lsp-ui)
 (package-install 'flycheck)
 (package-install 'yasnippet)
+(package-install 'mozc)
+(package-install 'web-mode)
 
 ;; dependencies for copilot.el
 (package-install 'dash)
@@ -200,7 +202,7 @@
  '(custom-safe-themes
    '("51ec7bfa54adf5fff5d466248ea6431097f5a18224788d0bd7eb1257a4f7b773" "4c56af497ddf0e30f65a7232a8ee21b3d62a8c332c6b268c81e9ea99b11da0d3" "b3497e90ea04d47b195a02b3ffc9506562db90e51db107ef600abdf38e76f27a" default))
  '(package-selected-packages
-   '(csharp-mode markdown-preview-mode lua-mode dockerfile-mode ubuntu-theme json-mode rust-mode mozc web-mode yaml-mode vertico use-package solarized-theme orderless exec-path-from-shell consult cmake-mode)))
+   '(editorconfig s dash yasnippet flycheck lsp-ui lsp-mode company magit csharp-mode markdown-preview-mode lua-mode dockerfile-mode ubuntu-theme json-mode rust-mode mozc web-mode yaml-mode vertico use-package solarized-theme orderless exec-path-from-shell consult cmake-mode)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
